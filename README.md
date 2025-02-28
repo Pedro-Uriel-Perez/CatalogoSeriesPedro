@@ -37,11 +37,6 @@ Se utiliza SQLite para el almacenamiento de datos, con una tabla `series` este i
 - sinopsis (TEXT)
 - imagen_url (TEXT)
 
-## Características
-- CRUD completo (Crear, Leer, Actualizar, Eliminar)
-- Estructura Maestro-Detalle
-- Soporte para imágenes mediante URLs
-
 ## APK
 El APK se encuentra en la carpeta [app-debug.apk](app-debug.apk)
 
