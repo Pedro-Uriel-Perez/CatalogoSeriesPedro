@@ -1,4 +1,4 @@
-# Series
+# Catalogo de Series
 
 Aplicación Android para catálogos de series de TV, desarrollado con Kotlin y SQLite.
 
