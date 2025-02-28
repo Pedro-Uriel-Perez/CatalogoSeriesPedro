@@ -1,10 +1,10 @@
-# Catálogo de Series
+# Series
 
-Aplicación Android para gestionar un catálogo personal de series de TV, desarrollada con Kotlin y SQLite.
+Aplicación Android para catálogos de series de TV, desarrollado con Kotlin y SQLite.
 
 ## Descripción
 
-Esta aplicación permite al usuario crear, visualizar, actualizar y eliminar información sobre sus series favoritas, incluyendo detalles como título, género, plataforma, año de estreno, temporadas, calificación y sinopsis.
+Esta aplicación permite al usuario crear, visualizar, actualizar y eliminar información sobre sus series , incluyendo detalles como título, género, plataforma, año de estreno, temporadas, calificación y y una descripcion.
 
 ## Capturas de pantalla
 
@@ -17,7 +17,7 @@ Esta aplicación permite al usuario crear, visualizar, actualizar y eliminar inf
 ## Estructura del código
 
 ### Clases principales
-- `MainActivity`: Pantalla principal con lista de series y buscador
+- `MainActivity`: Pantalla principal con lista de series
 - `SerieDetailActivity`: Muestra los detalles completos de una serie
 - `SerieForm`: Formulario para crear o editar series
 - `SeriesDbHelper`: Gestiona operaciones CRUD con la base de datos SQLite
@@ -26,7 +26,7 @@ Esta aplicación permite al usuario crear, visualizar, actualizar y eliminar inf
 - `SerieViewHolder`: ViewHolder para los elementos de la lista
 
 ### Base de datos
-La aplicación utiliza SQLite para el almacenamiento persistente de datos, con una tabla `series` que incluye los siguientes campos:
+Se utiliza SQLite para el almacenamiento de datos, con una tabla `series` este incluye:
 - id (INTEGER PRIMARY KEY)
 - titulo (TEXT)
 - genero (TEXT)
@@ -39,19 +39,9 @@ La aplicación utiliza SQLite para el almacenamiento persistente de datos, con u
 
 ## Características
 - CRUD completo (Crear, Leer, Actualizar, Eliminar)
-- Búsqueda en tiempo real por título, género o plataforma
-- Interfaz basada en Material Design
 - Estructura Maestro-Detalle
 - Soporte para imágenes mediante URLs
 
-## Instalación
-1. Descarga el archivo APK desde la carpeta [app-debug.apk](app-debug.apk)
-2. Instala la aplicación en tu dispositivo Android
-3. Comienza a gestionar tu catálogo de series
+## APK
+El APK se encuentra en la carpeta [app-debug.apk](app-debug.apk)
 
-## Tecnologías utilizadas
-- Kotlin
-- SQLite
-- RecyclerView
-- Material Design
-- Glide (para cargar imágenes)
