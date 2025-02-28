@@ -38,5 +38,5 @@ Se utiliza SQLite para el almacenamiento de datos, con una tabla `series` este i
 - imagen_url (TEXT)
 
 ## APK
-El APK se encuentra en la carpeta [app-debug.apk](app-debug.apk)
+El APK es [app-debug.apk](app-debug.apk)
 
