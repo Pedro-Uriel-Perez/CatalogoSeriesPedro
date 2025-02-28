@@ -8,9 +8,11 @@ Esta aplicación permite al usuario crear, visualizar, actualizar y eliminar inf
 
 ## Capturas de pantalla
 
-![Lista de Series](screenshots/main_screen.jpg)
-![Detalle de Serie](screenshots/detail_view.jpg)
-![Formulario](screenshots/form_view.jpg)
+<div style="display: flex; justify-content: space-between;">
+  <img src="screenshots/main_screen.jpg" width="32%" alt="Lista de Series"/>
+  <img src="screenshots/detail_view.jpg" width="32%" alt="Detalle de Serie"/>
+  <img src="screenshots/form_view.jpg" width="32%" alt="Formulario"/>
+</div>
 
 ## Estructura del código
 
@@ -20,7 +22,7 @@ Esta aplicación permite al usuario crear, visualizar, actualizar y eliminar inf
 - `SerieForm`: Formulario para crear o editar series
 - `SeriesDbHelper`: Gestiona operaciones CRUD con la base de datos SQLite
 - `Serie`: Modelo de datos para representar una serie
-- `SeriesAdapter`: Adaptador para el RecyclerView
+- `SeriesAdapter`: Para el RecyclerView
 - `SerieViewHolder`: ViewHolder para los elementos de la lista
 
 ### Base de datos
