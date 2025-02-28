@@ -4,7 +4,7 @@ Aplicación Android para catálogos de series de TV, desarrollado con Kotlin y S
 
 ## Descripción
 
-Esta aplicación permite al usuario crear, visualizar, actualizar y eliminar información sobre sus series , incluyendo detalles como título, género, plataforma, año de estreno, temporadas, calificación y y una descripcion.
+Esta aplicación permite crear, visualizar, actualizar y eliminar información sobre series , incluyendo detalles como título, género, plataforma, año de estreno, temporadas, calificación y y una descripcion.
 
 ## Capturas de pantalla
 
